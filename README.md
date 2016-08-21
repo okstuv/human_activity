@@ -1,5 +1,4 @@
-# Human Activity 
-## Project Description: Coursera Getting and Cleaning Data, Final Project
+# Coursera Getting and Cleaning Data, Final Project
 
 ## Package Dependency Note: 
 The run_analysis.R script assumes you have the dplyr R Package installed and ready to be attached in R via library() function call. 
