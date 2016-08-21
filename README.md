@@ -1,4 +1,5 @@
 # Coursera Getting and Cleaning Data, Final Project
+Turner Gutmann
 
 ## Package Dependency Note: 
 The run_analysis.R script assumes you have the dplyr R Package installed and ready to be attached in R via library() function call. 
