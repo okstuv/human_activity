@@ -116,4 +116,4 @@ tidy <- select(tidy, subjectId, activityId, activityType, everything())
 tidy <- arrange(tidy, subjectId, activityId)
 
 # Export the tidy data set 
-write.table(tidy, './tidy.txt',row.names=TRUE,sep='\t');
+write.table(tidy, './tidy.txt',row.names=FALSE);
