@@ -43,17 +43,29 @@ Make pretty variable names using gsub
 Reorder columns to put have first few columns be subjectId, activityId, then activityType
 
 ### Final variable names (column names in the final data set)
-[1] "activityId"                      "subjectId"                      
- [3] "timeBodyAccMagnitudeMean"        "timeBodyAccMagnitudeStdDev"     
- [5] "timeGravityAccMagnitudeMean"     "timeGravityAccMagnitudeStdDev"  
- [7] "timeBodyAccJerkMagnitudeMean"    "timeBodyAccJerkMagnitudeStdDev" 
- [9] "timeBodyGyroMagnitudeMean"       "timeBodyGyroMagnitudeStdDev"    
-[11] "timeBodyGyroJerkMagnitudeMean"   "timeBodyGyroJerkMagnitudeStdDev"
-[13] "freqBodyAccMagnitudeMean"        "freqBodyAccMagnitudeStdDev"     
-[15] "freqBodyAccJerkMagnitudeMean"    "freqBodyAccJerkMagnitudeStdDev" 
-[17] "freqBodyGyroMagnitudeMean"       "freqBodyGyroMagnitudeStdDev"    
-[19] "freqBodyGyroJerkMagnitudeMean"   "freqBodyGyroJerkMagnitudeStdDev"
-[21] "activityType" 
+
+"activityId"                      
+"subjectId" 
+"activityType" 
+"timeBodyAccMagnitudeMean"        
+"timeBodyAccMagnitudeStdDev"     
+"timeGravityAccMagnitudeMean"     
+"timeGravityAccMagnitudeStdDev"  
+"timeBodyAccJerkMagnitudeMean"    
+"timeBodyAccJerkMagnitudeStdDev" 
+"timeBodyGyroMagnitudeMean"       
+"timeBodyGyroMagnitudeStdDev"    
+"timeBodyGyroJerkMagnitudeMean"   
+"timeBodyGyroJerkMagnitudeStdDev"
+"freqBodyAccMagnitudeMean"        
+"freqBodyAccMagnitudeStdDev"     
+"freqBodyAccJerkMagnitudeMean"    
+"freqBodyAccJerkMagnitudeStdDev" 
+"freqBodyGyroMagnitudeMean"       
+"freqBodyGyroMagnitudeStdDev"    
+"freqBodyGyroJerkMagnitudeMean"   
+"freqBodyGyroJerkMagnitudeStdDev"
+
 
 ## 5. Create a second, independent tidy data set with the average of each variable for each activity and each subject. 
 Create a text output from the above final data set that has summarized the average for each variable measurement collected (mean and std dev) for each subject and activity type. This is tidy.txt in my repo.
